@@ -7,7 +7,7 @@ Dans le [repository dédié](https://github.com/chloecorfmat/into-the-woods-docs
 
 Pour installer gitbook :
 ```
-npm install -g gitbook
+npm install gitbook-cli -g
 ```
 
 Pour écouter les modifications :
