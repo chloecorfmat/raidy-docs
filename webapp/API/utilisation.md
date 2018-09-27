@@ -25,8 +25,6 @@ Afin de communiquer des données à l'API il est recommandé d'utiliser le forma
 
 *Exemple de données lors de l'authentification*
 
-
-
 Le type de retour de l'API est également le **JSON**.
 
 
