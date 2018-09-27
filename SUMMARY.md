@@ -4,8 +4,13 @@
 * Installation
     * [GitBook](installation/gitbook.md)
 * Bonnes pratiques
-	* [Definition of Ready (DOR)](best-practices/DOR.md)
-	* [Definition of Done (DOD)](best-practices/DOD.md)
-* Documentation technique
-    * [Front-office](documentation-technique/front/front.md)
+  * [Definition of Ready (DOR)](best-practices/DOR.md)
+  * [Definition of Done (DOD)](best-practices/DOD.md)
+* Application Web
+    * API
+        * [Utilisation de l'API](webapp/API/utilisation.md)
+        * [Authentification sur l'API](webapp/API/authentification.md)
+        * Routes d'API
+            - [Authentification](webapp/API/routes/authentification.md)
+    * [Front-office](webapp/front/front.md)
 
