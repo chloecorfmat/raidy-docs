@@ -20,11 +20,9 @@ Cloner le projet git `git clone git@github.com:chloecorfmat/into-the-woods-webap
 
 `php bin/console server:start` pour démarrer le serveur de développement.
 
-
+Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
 **Après chaque mise à jour du dépot git il faut relancer un  `composer install`pour installer les nouvelles dépendances** 
-
-
 
 ## Configurer PHPStorm
 
