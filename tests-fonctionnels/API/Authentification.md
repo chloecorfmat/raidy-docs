@@ -6,7 +6,7 @@
 
 ###  Situation de départ
 
-En tant qu'utilisateur de l'API, sans jeton d'authentification, jesouhaite m'authentifier auprès de l'API pour récupérer un jeton.
+En tant qu'utilisateur de l'API, sans jeton d'authentification, je souhaite m'authentifier auprès de l'API pour récupérer un jeton.
 
 ### Déroulement 
 

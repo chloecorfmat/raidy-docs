@@ -15,4 +15,5 @@
         * Routes d'API
             - [Authentification](webapp/API/routes/authentification.md)
     * [Front-office](webapp/front/front.md)
+* [Tests](./tests-fonctionnels/tests.md)
 
