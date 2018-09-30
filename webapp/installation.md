@@ -1,5 +1,19 @@
 # Installation
 
+
+
+## Pré-requis
+
+Pour installer et faire fonctionner l'application il faut :
+
+- **PHP7** et pouvoir le lancer dans un terminal
+- **[Composer](https://getcomposer.org/)** 
+- **[Node.js et npm](https://nodejs.org)**
+
+ 
+
+## Installation de symfony
+
 Cloner le projet git `git clone git@github.com:chloecorfmat/into-the-woods-webapp.git` 
 
 `composer install` pour télécharger les dépendances

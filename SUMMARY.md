@@ -7,6 +7,7 @@
   * [Definition of Ready (DOR)](best-practices/DOR.md)
   * [Definition of Done (DOD)](best-practices/DOD.md)
 * Application Web
+    * [Installation](webapp/installation.md)
     * API
         * [Utilisation de l'API](webapp/API/utilisation.md)
         * [Authentification sur l'API](webapp/API/authentification.md)
