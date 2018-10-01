@@ -15,5 +15,10 @@
         * Routes d'API
             - [Authentification](webapp/API/routes/authentification.md)
     * [Front-office](webapp/front/front.md)
-* [Tests](./tests-fonctionnels/tests.md)
+        * [Gulp](webapp/front/gulp.md)
+* [Tests](tests-fonctionnels/tests.md)
+    * Administration
+        * [Organizer](tests-fonctionnels/Admin/organizer.md)
+    * API
+        * [Authentification](tests-fonctionnels/API/authentification.md)
 

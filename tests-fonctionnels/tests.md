@@ -1,6 +1,6 @@
 # Les tests
 
 ## Administration
-* [Organizer](./Admin/Organizer.md)
+* [Organizer](Admin/organizer.md)
 ## API
-* [Authentification](./API/Authentification.md)
+* [Authentification](API/authentification.md)
