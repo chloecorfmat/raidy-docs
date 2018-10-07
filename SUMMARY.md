@@ -19,6 +19,7 @@
 * [Tests](tests-fonctionnels/tests.md)
     * Administration
         * [Organizer](tests-fonctionnels/Admin/organizer.md)
+        * [Raids](tests-fonctionnels/Admin/raids.md)
     * API
         * [Authentification](tests-fonctionnels/API/authentification.md)
 
