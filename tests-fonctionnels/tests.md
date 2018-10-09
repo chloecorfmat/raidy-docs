@@ -2,6 +2,7 @@
 
 ## Administration
 * [Organizer](Admin/organizer.md)
-* [Raids](Admin/raids.md)
+* [Raids](Organizer/raids.md)
+
 ## API
 * [Authentification](API/authentification.md)
