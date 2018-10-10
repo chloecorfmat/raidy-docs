@@ -1,8 +1,20 @@
 # Les tests
 
-## Administration
-* [Organizer](Admin/organizer.md)
-* [Raids](Organizer/raids.md)
+## Web application
 
-## API
+### Administration
+
+* [Organizer](Admin/organizer.md)
+
+### API
+
 * [Authentification](API/authentification.md)
+
+### Organizer
+
+- [Raids](Organizer/raids.md)
+
+### Authentification
+
+- [Authentification](Organizer/authentification.md)
+
