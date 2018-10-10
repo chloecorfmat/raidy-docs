@@ -31,3 +31,9 @@ Pour utiliser PHPUnit dans PHPStorm :
 - **Run** > **Edit configurations** 
 - Cliquer sur **+**  > **PHPUnit**  
 - Dans le champ **Directory** choisir le fichier **PHPUnit** dans le répertoire **vendor/bin/phpunit** 
+
+## Créer un compte Super Admin
+
+L'accès aux fonctionnalités d'administration est limité aux Super Administrateurs. Pour créer un compte Super Admin sans passer par un formulaire (nottament à l'installation de l'application) on utilise la commande `php bin/console superadmin:create`
+
+Cette commande va permettre de préciser les informations d'un compte et de la créer avec les droits adéquats.
