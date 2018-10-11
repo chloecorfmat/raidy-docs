@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * Installation
+
     * [GitBook](installation/gitbook.md)
 * Bonnes pratiques
   * [Definition of Ready (DOR)](best-practices/DOR.md)
@@ -16,7 +17,13 @@
             - [Authentification](webapp/API/routes/authentification.md)
     * [Front-office](webapp/front/front.md)
         * [Gulp](webapp/front/gulp.md)
-* [Tests](tests-fonctionnels/tests.md)
+    * Architecture
+        * [Bundles](webapp/architecture/bundles.md)
+        * [Controles d'accès](webapp/architecture/ControleAcces.md)
+        * - [Architecture](webapp/architecture/bundles)
+        * 
+    * [Tests](tests-fonctionnels/tests.md)
+
     * Administration
         * [Organizer](tests-fonctionnels/Admin/organizer.md)
         * [Raids](tests-fonctionnels/Organizer/raids.md)
