@@ -22,7 +22,7 @@ Ce fichier comprend également la configuration des accès en fonction de l'url.
 
 Les controles d'accès basés sur le rôles de l'utilisateur permettent de restreindre l'accès à certaines partie de l'application mais ne suffisent pas pour limiter l'accès à certaines ressources.
 
-Afin d'éviter qu'un organisateur ne puisse modifier un raid qui ne lui appartient pas il faut limiter l'accès à certaines pages aux propriétaires des ressources. C'est le rôle des *Voter* de Symfony.
+Afin d'éviter qu'un  organisateur ne puisse modifier un raid qui ne lui appartient pas il faut limiter l'accès à certaines pages aux propriétaires des ressources. C'est le rôle des *Voter* de Symfony.
 
 Un *voter* permet de vérifier certaines informations puis de valider ou non l'accès à certaines ressources. 
 
@@ -30,11 +30,16 @@ Pour utiliser un *Voter* on utilise l'*authorization checker* de Symfony et on u
 
 ```php
 $authChecker = $this->get('security.authorization_checker');
-if (!$authChecker->isGranted(RaidVoter::EDIT, $raid)) {
-    throw $this->createAccessDeniedException();
-}
+        if (!$authChecker->isGranted(RaidVoter::EDIT, $raid)) {
+            $referer = $request->headers->get('referer');
+            if ($referer != null) {
+                return new RedirectResponse($referer);
+            } else {
+                throw $this->createAccessDeniedException();
+            }
+        }
 ```
 
-Dans le cas présenté ci-dessus on utilise le *RaidVoter* pour vérifier que l'utilisateur courant a bien les droits suffisants pour modifier un raid (ie. il est le créateur).
+Dans le cas présenté ci-dessus on utilise le *RaidVoter* pour vérifier que l'utilisateur courant a bien les droits suffisants pour modifier un raid (ie. il est le créateur). SI ce n'est pas le cas on tente de le renvoyer sur la page précédente, sinon on lève une exception.
 
 Ce *Voter* est placé dans le répertoire `OrganizerBundle/Security/RaidVoter.php`.
