@@ -20,13 +20,14 @@
     * Architecture
         * [Bundles](webapp/architecture/bundles.md)
         * [Controles d'accès](webapp/architecture/ControleAcces.md)
-        * - [Architecture](webapp/architecture/bundles)
-        * 
+        * [Architecture](webapp/architecture/bundles)
     * [Tests](tests-fonctionnels/tests.md)
 
     * Administration
-        * [Organizer](tests-fonctionnels/Admin/organizer.md)
-        * [Raids](tests-fonctionnels/Organizer/raids.md)
+        * [Organizer](tests-fonctionnels/webapp/Admin/organizer.md)
+        * [Raids](tests-fonctionnels/webapp/Organizer/raids.md)
+            * [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
+                * [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
     * API
         * [Authentification](tests-fonctionnels/API/authentification.md)
 

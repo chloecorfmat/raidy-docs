@@ -12,9 +12,11 @@
 
 ### Organizer
 
-- [Raids](Organizer/raids.md)
+* [Raids](Organizer/raids.md)
+* [Parcours](Organizer/tracks.md)
+* [Points d'intérêt](Organizer/pois.md)
 
 ### Authentification
 
-- [Authentification](Organizer/authentification.md)
+* [Authentification](Organizer/authentification.md)
 
