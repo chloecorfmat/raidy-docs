@@ -112,4 +112,3 @@ En tant qu'utilisateur de l'API, authentifié avec un jeton, je souhaite révoqu
        "message": "Unknow token"
    }
    ```
-
