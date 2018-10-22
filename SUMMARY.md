@@ -37,10 +37,7 @@
   	* API
   		* [Authentification](tests-fonctionnels/webapp/API/authentification.md)
   * Applications mobiles
-  	* Connexion
-  		* [Organizer](tests-fonctionnels/phoneapp/connexion/organizer.md)
-  		* [Helper](tests-fonctionnels/phoneapp/connexion/helper.md)
-  	* Compte utilisateur
-  		* [Organizer](tests-fonctionnels/phoneapp/compte/organizer.md)
-  		* [Helper](tests-fonctionnels/phoneapp/compte/helper.md)
+	* [Connexion](tests-fonctionnels/phoneapp/connexion.md)
+  	* [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
+
 
