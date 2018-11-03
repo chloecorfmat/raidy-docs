@@ -14,6 +14,8 @@
 - `DELETE \auth-tokens` supprime un jeton d'API
 
   - Paramètres
+
     - *token* : jeton à supprimer
   - Retour : 
-    - *status* : Status de la requêtes
+  
+    - *status* : Status de la requête
