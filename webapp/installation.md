@@ -1,4 +1,4 @@
-# Installation
+# Installation en environnement de développement
 
 
 
@@ -6,7 +6,7 @@
 
 Pour installer et faire fonctionner l'application il faut :
 
-- **PHP7** et pouvoir le lancer dans un terminal
+- **PHP-7.2** et pouvoir le lancer dans un terminal
 - **[Composer](https://getcomposer.org/)** 
 - **[Node.js et npm](https://nodejs.org)**
 
