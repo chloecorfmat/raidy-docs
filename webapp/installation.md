@@ -2,11 +2,12 @@
 
 
 
-## Pré-requis
+## Prérequis
 
 Pour installer et faire fonctionner l'application il faut :
 
 - **PHP-7.2** et pouvoir le lancer dans un terminal
+- Un serveur de base de données **MySQL** 
 - **[Composer](https://getcomposer.org/)** 
 - **[Node.js et npm](https://nodejs.org)**
 
@@ -15,6 +16,8 @@ Pour installer et faire fonctionner l'application il faut :
 ## Installation de symfony
 
 Cloner le projet git `git clone git@github.com:chloecorfmat/into-the-woods-webapp.git` 
+
+Créer une base de données et reporter les informations de connexion dans le fichier `app/config/parameters.yml`
 
 `composer install` pour télécharger les dépendances
 
