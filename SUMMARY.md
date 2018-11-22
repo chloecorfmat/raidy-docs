@@ -74,7 +74,11 @@
           * [Points d'intérêt](tests-fonctionnels/webapp/API/Organizer/pois.md)
           * [Type de points d'intérêt](tests-fonctionnels/webapp/API/Organizer/poitypes.md)
   * Applications mobiles
-  * [Connexion](tests-fonctionnels/phoneapp/connexion.md)
-  	* [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
+    * [Connexion](tests-fonctionnels/phoneapp/connexion.md)
+    * [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
+    * [Helper](tests-fonctionnels/phoneapp/helper.md)
+    * Organizer
+      [Editeur](tests-fonctionnels/phoneapp/organizer/editor.md)
+      [Calibrage](tests-fonctionnels/phoneapp/organizer/calibration.md)
 
 
