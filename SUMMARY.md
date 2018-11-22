@@ -76,7 +76,9 @@
   * Applications mobiles
     * [Connexion](tests-fonctionnels/phoneapp/connexion.md)
     * [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
-    * [Helper](tests-fonctionnels/phoneapp/helper.md)
+    * Helper
+      *[Raid](tests-fonctionnels/phoneapp/helper/raid.md)
+      *[Bénévolat](tests-fonctionnels/phoneapp/helper/checkin.md)
     * Organizer
       [Editeur](tests-fonctionnels/phoneapp/organizer/editor.md)
       [Calibrage](tests-fonctionnels/phoneapp/organizer/calibration.md)
