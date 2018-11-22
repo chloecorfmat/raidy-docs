@@ -57,16 +57,17 @@
 * Applications mobiles
 
   * [Installation](phoneapp/installation.md)
+  * [Configuration](phoneapp/configuration.md)
 * [Tests](tests-fonctionnels/tests.md)
   * Application Web
-  	* Administration
-  		* [Organizer](tests-fonctionnels/webapp/Admin/organizer.md)
-  		* [Raids](tests-fonctionnels/webapp/Organizer/raids.md)
-  			* [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
-  				* [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
-  		* [Helper](tests-fonctionnels/webapp/Helper/inscription.md)
-  	* API
-  		* [Authentification](tests-fonctionnels/webapp/API/authentification.md)
+    * Administration
+        * [Organizer](tests-fonctionnels/webapp/Admin/organizer.md)
+        * [Raids](tests-fonctionnels/webapp/Organizer/raids.md)
+          * [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
+            * [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
+        * [Helper](tests-fonctionnels/webapp/Helper/inscription.md)
+    * API
+        * [Authentification](tests-fonctionnels/webapp/API/authentification.md)
       * [Profil](tests-fonctionnels/webapp/API/profile.md)
       * [Sport](tests-fonctionnels/webapp/API/sporttypes.md)
       * Helper
@@ -78,7 +79,11 @@
           * [Points d'intérêt](tests-fonctionnels/webapp/API/Organizer/pois.md)
           * [Type de points d'intérêt](tests-fonctionnels/webapp/API/Organizer/poitypes.md)
   * Applications mobiles
-  * [Connexion](tests-fonctionnels/phoneapp/connexion.md)
-  	* [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
+    * [Connexion](tests-fonctionnels/phoneapp/connexion.md)
+    * [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
+    * [Helper](tests-fonctionnels/phoneapp/helper.md)
+    * Organizer
+      [Editeur](tests-fonctionnels/phoneapp/organizer/editor.md)
+      [Calibrage](tests-fonctionnels/phoneapp/organizer/calibration.md)
 
 
