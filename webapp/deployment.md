@@ -68,6 +68,12 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 
 ```
 
+Activer la configuration : `a2ensite into-the-woods.conf`
+
+Redémarrer le serveur Apache : `service apache2 restart`
+
+**Attention l'utilisateur Linux executant le serveur Apache doit pouvoir écrire dans les répertoires /var/logs et /var/cache**
+
 ### Génération des feuilles de styles et des scripts
 
 L'application utilise l'écosystème Node.js pour générer les feuilles de styles et les scripts nécessaires au bon fonctionnement du site.
