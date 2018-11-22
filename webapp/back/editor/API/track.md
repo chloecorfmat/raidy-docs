@@ -1,7 +1,6 @@
 # Routes API - parcours
 
-
-- `GET /api/organizer/raid/{raidId}/track` liste les parcours liés au raid *{raidId}*
+- `GET /editor/raid/{raidId}/track` liste les parcours liés au raid *{raidId}*
 
   - Paramètres :
 
@@ -25,7 +24,7 @@
 
     - *isCalibration* : le tracé est-il calibré ou non
 
-- `PUT /api/organizer/raid/{raidId}/track` crée un nouveau parcours pour le raid *{raidId}*
+- `PUT /editor/raid/{raidId}/track` crée un nouveau parcours pour le raid *{raidId}*
 
   - Paramètres :
 
@@ -58,7 +57,7 @@
 
     - *isCalibration* : le tracé est-il calibré ou non
 
-- `PATCH /api/organizer/raid/{raidId}/track/{trackId}` modifie le parcours *{trackId}* pour le raid *{raidId}*
+- `PATCH /editor/raid/{raidId}/track/{trackId}` modifie le parcours *{trackId}* pour le raid *{raidId}*
 
   - Paramètres :
 
@@ -92,14 +91,10 @@
 
     - *isCalibration* : le tracé est-il calibré ou non
 
-- `DELETE /api/organizer/raid/{raidId}/track/{trackId}` supprime le parcours *{trackId}* pour le raid *{raidId}*
+- `DELETE /editor/raid/{raidId}/track/{trackId}` supprime le parcours *{trackId}* pour le raid *{raidId}*
 
   - Paramètres
-
     - *raidId* : Identifiant du raid
-
     - trackId: Identifiant du parcours
-
   - Retour : 
-
     - *status* : Status de la requête

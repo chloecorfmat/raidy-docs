@@ -4,9 +4,7 @@
 - `GET /api/helper/raid/{raidId}/track` liste les parcours liés au raid *{raidId}*
 
   - Paramètres :
-
-    Pas de paramètres.
-
+    - *raidId* : Identifiant du raid
   - Retour : 
 
     - *id* : identifiant du parcours

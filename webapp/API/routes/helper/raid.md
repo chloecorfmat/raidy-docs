@@ -22,11 +22,8 @@
 - `GET /api/helper/raid/{raidId}` liste les informations liées au raid *{raidId}*
 
   - Paramètres :
-
-    Pas de paramètres.
-
+    - *raidId* : Identifiant du raid
   - Retour : 
-
     - *id* : identifiant du raid
     - *name* : nom du raid
     - *date* : date du raid

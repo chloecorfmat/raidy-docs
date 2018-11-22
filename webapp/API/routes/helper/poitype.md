@@ -1,7 +1,6 @@
 # Routes API - types de points d'intérêt
 
-
-- `GET /api/organizer/raid/{raidId}/poitype` liste les types de points d'intérêt liés à l'organisateur du raid {raidId}
+- `GET /api/helper/raid/{raidId}/poitype` liste les types de points d'intérêt liés à l'organisateur du raid {raidId}
   - Paramètres :
     - *raidId* : Identifiant du raid
   - Retour : 

@@ -17,24 +17,40 @@
             * Helper
               - [Raid](webapp/API/routes/helper/raid.md)
               - [Parcours](webapp/API/routes/helper/track.md)
+              - [Contacts](webapp/API/routes/helper/contact.md)
+              - [POI](webapp/API/routes/helper/poi.md)
+              - [Types de POI](webapp/API/routes/helper/poitype.md)
             * Organizer
-              - [Raid](webapp/API/routes/organizer/raid.md)
+              - [Raids](webapp/API/routes/organizer/raid.md)
               - [Parcours](webapp/API/routes/organizer/track.md)
-              - [Point d'intérêt](webapp/API/routes/organizer/poi.md)
-              - [Type de point d'intérêt](webapp/API/routes/organizer/poitype.md)
+              - [Points d'intérêts](webapp/API/routes/organizer/poi.md)
+              - [Types de point d'intérêt](webapp/API/routes/organizer/poitype.md)
             - [Authentification](webapp/API/routes/authentification.md)
             - [Profile](webapp/API/routes/profile.md)
-            - [Sport](webapp/API/routes/sporttype.md)
+            - [Sports](webapp/API/routes/sporttype.md)
     * [Front-end](webapp/front/front.md)
+
         * [Gulp](webapp/front/gulp.md)
     * Back-end
         * editor
+
+            * API
+
+                * [Parcours](webapp/back/editor/API/track.md)
+                * [Helpers](webapp/back/editor/API/helper.md)
+                * [Dernière édition](webapp/back/editor/API/lastEdition.md)
+                * [POI](webapp/back/editor/API/poi.md)
+                * [Types de POI](webapp/back/editor/API/poitype.md)
+                * [Sports](webapp/back/editor/API/sporttype.md)
+
             * [AJAX API](webapp/back/editor/AJAX-API.md)
+
     * Architecture
         * [Bundles](webapp/architecture/bundles.md)
         * [Controles d'accès](webapp/architecture/ControleAcces.md)
         * [Architecture](webapp/architecture/bundles)
 * Applications mobiles
+
   * [Installation](phoneapp/installation.md)
   * [Configuration](phoneapp/configuration.md)
 * [Tests](tests-fonctionnels/tests.md)
@@ -58,7 +74,7 @@
           * [Points d'intérêt](tests-fonctionnels/webapp/API/Organizer/pois.md)
           * [Type de points d'intérêt](tests-fonctionnels/webapp/API/Organizer/poitypes.md)
   * Applications mobiles
-    * [Connexion](tests-fonctionnels/phoneapp/connexion.md)
-    * [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
+  * [Connexion](tests-fonctionnels/phoneapp/connexion.md)
+  	* [Compte utilisateur](tests-fonctionnels/phoneapp/compte.md)
 
 
