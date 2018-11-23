@@ -14,7 +14,7 @@ En tant qu'utilisateur de l'API, sans jeton d'authentification, je souhaite m'au
 
    ```json
    {
-   	"login":test,
+   	"email":"test@test.fr",
    	"password":"azerty"
    }
    ```
@@ -41,7 +41,7 @@ En tant qu'utilisateur de l'API, sans jeton d'authentification, je souhaite m'au
 
    ```json
    {
-   	"login":test,
+   	"email":"test@test.fr",
    	"password":"azerty"
    }
    ```
@@ -112,4 +112,3 @@ En tant qu'utilisateur de l'API, authentifié avec un jeton, je souhaite révoqu
        "message": "Unknow token"
    }
    ```
-

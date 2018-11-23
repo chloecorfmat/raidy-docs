@@ -1,12 +1,13 @@
-# Installation
+# Installation en environnement de développement
 
 
 
-## Pré-requis
+## Prérequis
 
 Pour installer et faire fonctionner l'application il faut :
 
-- **PHP7** et pouvoir le lancer dans un terminal
+- **PHP-7.2** et pouvoir le lancer dans un terminal
+- Un serveur de base de données **MySQL** 
 - **[Composer](https://getcomposer.org/)** 
 - **[Node.js et npm](https://nodejs.org)**
 
@@ -16,6 +17,8 @@ Pour installer et faire fonctionner l'application il faut :
 
 Cloner le projet git `git clone git@github.com:chloecorfmat/into-the-woods-webapp.git` 
 
+Créer une base de données et reporter les informations de connexion dans le fichier `app/config/parameters.yml`
+
 `composer install` pour télécharger les dépendances
 
 `php bin/console server:start` pour démarrer le serveur de développement.
@@ -23,6 +26,12 @@ Cloner le projet git `git clone git@github.com:chloecorfmat/into-the-woods-webap
 Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
 **Après chaque mise à jour du dépot git il faut relancer un  `composer install`pour installer les nouvelles dépendances** 
+
+## Créer un compte Super Admin
+
+L'accès aux fonctionnalités d'administration est limité aux Super Administrateurs. Pour créer un compte Super Admin sans passer par un formulaire (nottament à l'installation de l'application) on utilise la commande `php bin/console superadmin:create`
+
+Cette commande va permettre de préciser les informations d'un compte et de la créer avec les droits adéquats.
 
 ## Configurer PHPStorm
 
