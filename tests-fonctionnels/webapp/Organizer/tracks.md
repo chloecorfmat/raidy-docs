@@ -99,7 +99,7 @@ En tant qu'organisateur de raids, je souhaite pouvoir supprimer un parcours de m
 
 1. Je me rends sur la page [/organizer/raid/{id}](/organizer/raid/{id}).
 2. Dans l'onglet **Parcours**, j'identifie le parcours que je veux supprimer.
-3. Je clique sur l'icône <img src="C:/wamp64/www/raidy/into-the-woods-docs/tests-fonctionnels/webapp/Organizer/ellipsis-v-solid.svg" style="width: 1.5%" /> du parcours que je veux supprimer.
+3. Je clique sur l'icône trois petits points du parcours que je veux supprimer.
 4. Un menu contextuel s'ouvre, je clique sur **Supprimer** Dans la fenêtre qui s'affiche :
-   1. Je confirme la suppression du parcours en cliquant sur **Supprimer**.
+   1. Je rentre le nom du tracés dans le champs afin de confirmer mon action et je confirme la suppression du parcours en cliquant sur **Supprimer**.
    2. J'annule mon action en cliquant sur **Annuler**.
