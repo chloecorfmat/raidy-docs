@@ -1,12 +1,12 @@
-# Contrôle d'acces
+# Contrôle d'accès
 
 ## Configuration de Symfony
 
-### Roles
+### Rôles
 
-Afin de gérer les controles d'accès aux différents parties de l'application 3 rôles ont été créés :
+Afin de gérer les contrôles d'accès aux différents parties de l'application 3 rôles ont été créés :
 
-- **Super Admin** : Administrateur de l'application, il a accès aux outils d'administration, la gestion des compte nottament
+- **Super Admin** : Administrateur de l'application, il a accès aux outils d'administration, la gestion des comptes notamment
 - **Organizer** : Organisateurs de raids
 - **Collaborateur** : Collaborateur d'un organisateur, il a accès à la gestion d'un raid auquel il est invité mais ne peut pas en créer. Il n'a pas accès à la gestion des collaborateurs et récupère les types de POI du créateur du raid.
 - **Helper** : Bénévoles
@@ -18,12 +18,11 @@ Ces rôles sont définis dans la partie `role_hierarchy` du fichier `app/config/
 Ce fichier comprend également la configuration des accès en fonction de l'url. On peut ainsi désigner les rôles qui ont accès aux différents partie de l'application web. Ainsi, seul les super administrateurs peuvent accèder aux adresse commençant par `/admin`avec la configuration suivante : `- { path: ^/admin, role: ROLE_SUPER_ADMIN }`
 
 
-
 ## *Voter* : gestion de l'accès aux ressources
 
-Les controles d'accès basés sur le rôles de l'utilisateur permettent de restreindre l'accès à certaines partie de l'application mais ne suffisent pas pour limiter l'accès à certaines ressources.
+Les contrôles d'accès basés sur le rôle de l'utilisateur permettent de restreindre l'accès à certaines parties de l'application mais ne suffisent pas pour limiter l'accès à certaines ressources.
 
-Afin d'éviter qu'un  organisateur ne puisse modifier un raid qui ne lui appartient pas il faut limiter l'accès à certaines pages aux propriétaires des ressources. C'est le rôle des *Voter* de Symfony.
+Afin d'éviter qu'un organisateur puisse modifier un raid qui ne lui appartient pas il faut limiter l'accès à certaines pages aux propriétaires des ressources. C'est le rôle des *Voter* de Symfony.
 
 Un *voter* permet de vérifier certaines informations puis de valider ou non l'accès à certaines ressources. 
 
