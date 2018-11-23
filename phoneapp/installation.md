@@ -20,3 +20,7 @@ __Pour installer et faire fonctionner l'application il faut :__
 # Déploiement des applications
 
 Pour déployer les applications, il faut disposer d'un compte [Adobe PhoneGap Build](https://build.phonegap.com/). Via l'interface en ligne, il est possible d'importer un dossier zippé contenant le répertoire `www/` et le fichier `config.xml`. Les commandes `phonegap remote` permettent la même chose.
+
+# Utilisation de fichiers apk
+
+Phonegap permet de créer des fichiers **apk**. Pour installer une application à partir de ce type de fichier, il faut autoriser les éditeurs non vérifiés à installer des applications sur l'appareil, via les paramètres de sécurité. Ensuite, l'ouverture du fichier apk lance l'installation.
