@@ -8,6 +8,7 @@
     * [Installation en développement](webapp/installation.md)
     * [Déploiement en production](webapp/deployment.md)
     * [GrumPHP](best-practices/grumphp.md)
+    * [Base de données](webapp/database.md)
     * API
         * [Utilisation de l'API](webapp/API/utilisation.md)
         * [Authentification sur l'API](webapp/API/authentification.md)
