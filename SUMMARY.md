@@ -1,18 +1,13 @@
 # Summary
-
 * [Introduction](README.md)
-* Installation
-
-    * [GitBook](installation/gitbook.md)
-* Bonnes pratiques
+* [GitBook](installation/gitbook.md)
+* Agilité
   * [Definition of Ready (DOR)](best-practices/DOR.md)
   * [Definition of Done (DOD)](best-practices/DOD.md)
-  * [GrumPHP](best-practices/grumphp.md)
 * Application Web
-    * [Installation](webapp/installation.md)
-
+    * [Installation en développement](webapp/installation.md)
     * [Déploiement en production](webapp/deployment.md)
-
+    * [GrumPHP](best-practices/grumphp.md)
     * API
         * [Utilisation de l'API](webapp/API/utilisation.md)
         * [Authentification sur l'API](webapp/API/authentification.md)
@@ -31,16 +26,11 @@
             - [Authentification](webapp/API/routes/authentification.md)
             - [Profile](webapp/API/routes/profile.md)
             - [Sports](webapp/API/routes/sporttype.md)
-
     * [Front-end](webapp/front/front.md)
-
         * [Gulp](webapp/front/gulp.md)
-
     * Back-end
         * editor
-
             * API
-
                 * [Parcours](webapp/back/editor/API/track.md)
                 * [Helpers](webapp/back/editor/API/helper.md)
                 * [Dernière édition](webapp/back/editor/API/lastEdition.md)
@@ -56,7 +46,6 @@
         * [Controles d'accès](webapp/architecture/ControleAcces.md)
         * [Architecture](webapp/architecture/bundles)
 * Applications mobiles
-
   * [Installation](phoneapp/installation.md)
   * [Configuration](phoneapp/configuration.md)
 * [Tests](tests-fonctionnels/tests.md)

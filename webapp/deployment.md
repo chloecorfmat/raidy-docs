@@ -2,13 +2,13 @@
 
 Afin de faire fonctionner l'application web Raidy il convient de suivre la procédure ci-dessous. Il est fortement conseillé d'utiliser un serveur sous Linux.
 
-Les serveurs de pré-production utilisaient une distribution Linux Ubuntu 18.04, il est conseillé d'utiliser une distribution similaire. Ce document détail l'installation sur ce type d'infrastructure.
+Les serveurs de pré-production utilisaient une distribution Linux Ubuntu 18.04, il est conseillé d'utiliser une distribution similaire. Ce document détaille l'installation sur ce type d'infrastructure.
 
 
 
 ## Prérequis
 
-Pour installer et faire fonctionner l'application il faut :
+Pour installer et faire fonctionner l'application, il faut :
 
 - **PHP 7.2**
 - Un serveur de base de données **MySQL** 
@@ -22,11 +22,11 @@ Pour installer et faire fonctionner l'application il faut :
 
 ### Installation de Symfony et de la base de données
 
-Installer le code livré dans le répertoire de votre choix, généralement le dossier `/www/html` de votre serveur apache.
+  * Installer le code livré dans le répertoire de votre choix, généralement le dossier `/www/html` de votre serveur apache.
 
-Dupliquer le fichier `app/config/parameters.yml.dist` et le nommer `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
+  * Dupliquer le fichier `app/config/parameters.yml.dist` et le nommer `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
 
-Créer une base de données **MySQL** en utilisant l'encodage **utf8_general_ci**  et reporter les informations de connexion dans le fichier `app/config/parameters.yml`:
+  * Créer une base de données **MySQL** en utilisant l'encodage **utf8_general_ci**  et reporter les informations de connexion dans le fichier `app/config/parameters.yml`:
 
 ```yaml
 parameters:
@@ -37,15 +37,15 @@ parameters:
     database_password: 'itw' #Mot de passe
 ```
 
-Exécuter la commande `composer install` pour télécharger les dépendances
+  * Exécuter la commande `composer install` pour télécharger les dépendances
 
-Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
+  * Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
 ### Configuration d'Apache
 
 Afin de rediriger les utilisateurs vers l'application il convient de configurer le serveur Apache. Pour ce faire, créer un fichier `/etc/apache2/sites-available/into-the-woods.conf` et utiliser le configuration de base ci-dessous.
 
-Remplacer le nom de domaine, le port, les noms des fichiers de logs et le répertoire d'hébergement en fonction de votre installation.
+  * Remplacer le nom de domaine, le port, les noms des fichiers de logs et le répertoire d'hébergement en fonction de votre installation.
 
 ```xml
 <VirtualHost *:80>
@@ -68,9 +68,9 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 
 ```
 
-Activer la configuration : `a2ensite into-the-woods.conf`
+  * Activer la configuration : `a2ensite into-the-woods.conf`
 
-Redémarrer le serveur Apache : `service apache2 restart`
+  * Redémarrer le serveur Apache : `service apache2 restart`
 
 **Attention l'utilisateur Linux executant le serveur Apache doit pouvoir écrire dans les répertoires /var/logs et /var/cache**
 
@@ -78,11 +78,11 @@ Redémarrer le serveur Apache : `service apache2 restart`
 
 L'application utilise l'écosystème Node.js pour générer les feuilles de styles et les scripts nécessaires au bon fonctionnement du site.
 
-Se rendre dans le dossier `/web/assets`.
+  * Se rendre dans le dossier `/web/assets`.
 
-Installer les dépendances avec la commande `npm install`
+  * Installer les dépendances avec la commande `npm install`
 
-Générer les feuilles de styles et les scripts avec la commande `gulp`
+  * Générer les feuilles de styles et les scripts avec la commande `gulp`
 
 
 
