@@ -46,7 +46,7 @@ En tant qu'organisateur de raids, je souhaite pouvoir éditer un point d'intér�
 
 1. Je me rends sur la page [/organizer/raid/{id}](/organizer/raid/{id}).
 2. Dans l'onglet **Points d'intérêt**, j'identifie le point d'intérêt que je veux éditer.
-3. Je clique sur l'icône <img src="ellipsis-v-solid.svg" style="width: 1.5%" /> du point d'intérêt que je veux modifier.
+3. Je clique sur l'icône trois petits points du point d'intérêt que je veux modifier.
   1. Un menu contextuel s'ouvre, je clique sur **Modifier les infos **Dans la fenêtre qui s'affiche :
   2. Je modifie les informations liées à mon point d'intérêt :
     - Son nom
@@ -80,7 +80,7 @@ En tant qu'organisateur de raids, je souhaite pouvoir supprimer un point d'inté
 
 2. Dans l'onglet **Points d'intérêt**, j'identifie le point d'intérêt que je veux supprimer.
 
-3. Je clique sur l'icône <img src="C:/wamp64/www/raidy/into-the-woods-docs/tests-fonctionnels/webapp/Organizer/ellipsis-v-solid.svg" style="width: 1.5%" /> du point d'intérêt que je veux supprimer.
+3. Je clique sur l'icône  trois petits points du point d'intérêt que je veux supprimer.
 
 4. Un menu contextuel s'ouvre, je clique sur **Supprimer** Dans la fenêtre qui s'affiche :
 
