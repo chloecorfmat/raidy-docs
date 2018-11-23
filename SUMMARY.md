@@ -68,6 +68,7 @@
             * [Bénévoles](tests-fonctionnels/webapp/Organizer/helpers.md)
             * [Collaborateurs](tests-fonctionnels/webapp/Organizer/collaborators.md)
             * [Raids](tests-fonctionnels/webapp/Organizer/raids.md)
+              * [Cloner](tests-fonctionnels/webapp/Organizer/clone.md)
               * [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
                 * [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
         * [Helper](tests-fonctionnels/webapp/Helper/inscription.md)
