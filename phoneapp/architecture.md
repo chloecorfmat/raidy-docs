@@ -1,6 +1,6 @@
 # Architecture
 
-Chaque vue de l'application a ses propres fichiers html et javascript
+Chaque vue de l'application a ses propres fichiers HTML et JavaScript.
 
 
 ```

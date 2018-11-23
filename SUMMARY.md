@@ -29,7 +29,7 @@
     * [Front-end](webapp/front/front.md)
         * [Gulp](webapp/front/gulp.md)
     * Back-end
-        * editor
+        * Éditeur
             * API
                 * [Parcours](webapp/back/editor/API/track.md)
                 * [Helpers](webapp/back/editor/API/helper.md)
@@ -38,13 +38,11 @@
                 * [Types de POI](webapp/back/editor/API/poitype.md)
                 * [Sports](webapp/back/editor/API/sporttype.md)
             * [AJAX API](webapp/back/editor/AJAX-API.md)
-        * [Collaborator](webapp/back/collaborator.md)
+        * [Collaborateur](webapp/back/collaborator.md)
         * [Services métier](webapp/back/services.md)
-
     * Architecture
-        * [Bundles](webapp/architecture/bundles.md)
-        * [Controles d'accès](webapp/architecture/ControleAcces.md)
-        * [Architecture](webapp/architecture/bundles)
+        * [Architecture](webapp/architecture/bundles.md)
+        * [Contrôles d'accès](webapp/architecture/ControleAcces.md)
 * Applications mobiles
   * [Installation](phoneapp/installation.md)
   * [Configuration](phoneapp/configuration.md)
@@ -59,7 +57,7 @@
             * [Raids](tests-fonctionnels/webapp/Organizer/raids.md)
               * [Cloner](tests-fonctionnels/webapp/Organizer/clone.md)
               * [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
-                * [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
+              * [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
         * [Helper](tests-fonctionnels/webapp/Helper/inscription.md)
     * API
         * [Authentification](tests-fonctionnels/webapp/API/authentification.md)

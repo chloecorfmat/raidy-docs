@@ -1,26 +1,21 @@
-# Installation
+# Installation en développement
 
 
 ## Pré-requis
 
-Pour installer et faire fonctionner l'application il faut :
+__Pour installer et faire fonctionner l'application il faut :__
 
 - **[Node.js](https://nodejs.org)**
 
 ## Installation de PhoneGap
 
-Cloner le projet git `git clone git@github.com/chloecorfmat/into-the-woods-phoneapp-helper.git` pour l'application Helper.
-Cloner le projet git `git clone git@github.com/chloecorfmat/into-the-woods-phoneapp-organizer.git` pour l'application Organizer.
-
-Télécharger **[PhoneGap](http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/)**
-
-`npm install` pour télécharger les modules requis
-
-`cordova prepare` pour importer les plugins cordova et les plateformes
-
-`gulp` pour générer les fichiers de style
-
-`phonegap serve` pour tester l'application dans phonegap
+1. Cloner le projet git `git clone git@github.com/chloecorfmat/into-the-woods-phoneapp-helper.git` pour l'application Helper.
+2. Cloner le projet git `git clone git@github.com/chloecorfmat/into-the-woods-phoneapp-organizer.git` pour l'application Organizer.
+3. Télécharger **[PhoneGap](http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/)**
+4. `npm install` pour télécharger les modules requis
+5. `cordova prepare` pour importer les plugins cordova et les plateformes
+6. `gulp` pour générer les fichiers de style
+7. `phonegap serve` pour tester l'application dans phonegap
 
 # Déploiement des applications
 
