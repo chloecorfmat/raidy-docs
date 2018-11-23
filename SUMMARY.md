@@ -47,8 +47,9 @@
                 * [POI](webapp/back/editor/API/poi.md)
                 * [Types de POI](webapp/back/editor/API/poitype.md)
                 * [Sports](webapp/back/editor/API/sporttype.md)
-
             * [AJAX API](webapp/back/editor/AJAX-API.md)
+        * [Collaborator](webapp/back/collaborator.md)
+        * [Services métier](webapp/back/services.md)
 
     * Architecture
         * [Bundles](webapp/architecture/bundles.md)
@@ -61,10 +62,15 @@
 * [Tests](tests-fonctionnels/tests.md)
   * Application Web
     * Administration
-        * [Organizer](tests-fonctionnels/webapp/Admin/organizer.md)
-        * [Raids](tests-fonctionnels/webapp/Organizer/raids.md)
-          * [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
-            * [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
+        * [Super administrateur](tests-fonctionnels/webapp/Admin/organizer.md)
+        * Organizer 
+            * [Contacts](tests-fonctionnels/webapp/Organizer/contacts.md)
+            * [Bénévoles](tests-fonctionnels/webapp/Organizer/helpers.md)
+            * [Collaborateurs](tests-fonctionnels/webapp/Organizer/collaborators.md)
+            * [Raids](tests-fonctionnels/webapp/Organizer/raids.md)
+              * [Cloner](tests-fonctionnels/webapp/Organizer/clone.md)
+              * [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
+                * [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
         * [Helper](tests-fonctionnels/webapp/Helper/inscription.md)
     * API
         * [Authentification](tests-fonctionnels/webapp/API/authentification.md)
@@ -73,7 +79,7 @@
       * Helper
         * [Raids](tests-fonctionnels/webapp/API/Helper/raids.md)
           * [Parcours](tests-fonctionnels/webapp/API/Helper/tracks.md)
-      * Organizer 
+      * Organizer
         * [Raids](tests-fonctionnels/webapp/API/Organizer/raids.md)
           * [Parcours](tests-fonctionnels/webapp/API/Organizer/tracks.md)
           * [Points d'intérêt](tests-fonctionnels/webapp/API/Organizer/pois.md)
