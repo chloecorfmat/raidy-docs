@@ -16,21 +16,6 @@ En tant qu'adminstrateur de Raidy, je souhaite lister les organisateurs de raids
 4. Lorsque je clique sur le bouton **Supprimer**, je suis redirigé(e) sur la même page. L'utilisateur supprimé n'apparaît plus.
 
 
-
-## Afficher un organisateur
-
-### Situation de départ
-
-En tant qu'adminstrateur de Raidy, je souhaite afficher la fiche d'un organisateur
-
-### Déroulement 
-
-1. Je me rends sur la page [/admin/organizer](/admin/organizer).
-2. Un tableau listant les organisateurs. Pour chacun d'eux, je peux voir l'id, leur nom, leur adresse e-mail et leur numéro de téléphone.
-3. Lorsque je clique sur le bouton **Voir**, j'accède à une page affichant les informations de l'organisateur
-
-
-
 ## Ajouter un organisateur
 
 ### Situation de départ
