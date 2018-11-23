@@ -8,6 +8,7 @@ Afin de gérer les controles d'accès aux différents parties de l'application 3
 
 - **Super Admin** : Administrateur de l'application, il a accès aux outils d'administration, la gestion des compte nottament
 - **Organizer** : Organisateurs de raids
+- **Collaborateur** : Collaborateur d'un organisateur, il a accès à la gestion d'un raid auquel il est invité mais ne peut pas en créer. Il n'a pas accès à la gestion des collaborateurs et récupère les types de POI du créateur du raid.
 - **Helper** : Bénévoles
 
 ### security.yml
@@ -30,14 +31,9 @@ Pour utiliser un *Voter* on utilise l'*authorization checker* de Symfony et on u
 
 ```php
 $authChecker = $this->get('security.authorization_checker');
-        if (!$authChecker->isGranted(RaidVoter::EDIT, $raid)) {
-            $referer = $request->headers->get('referer');
-            if ($referer != null) {
-                return new RedirectResponse($referer);
-            } else {
-                throw $this->createAccessDeniedException();
-            }
-        }
+if (!$authChecker->isGranted(RaidVoter::EDIT, $raid)) {
+    throw $this->createAccessDeniedException();
+}
 ```
 
 Dans le cas présenté ci-dessus on utilise le *RaidVoter* pour vérifier que l'utilisateur courant a bien les droits suffisants pour modifier un raid (ie. il est le créateur). SI ce n'est pas le cas on tente de le renvoyer sur la page précédente, sinon on lève une exception.
