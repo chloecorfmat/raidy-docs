@@ -1,18 +1,14 @@
 # Summary
-
 * [Introduction](README.md)
-* Installation
-
-    * [GitBook](installation/gitbook.md)
-* Bonnes pratiques
+* [GitBook](installation/gitbook.md)
+* Agilité
   * [Definition of Ready (DOR)](best-practices/DOR.md)
   * [Definition of Done (DOD)](best-practices/DOD.md)
-  * [GrumPHP](best-practices/grumphp.md)
 * Application Web
-    * [Installation](webapp/installation.md)
-
+    * [Installation en développement](webapp/installation.md)
     * [Déploiement en production](webapp/deployment.md)
-
+    * [GrumPHP](best-practices/grumphp.md)
+    * [Base de données](webapp/database.md)
     * API
         * [Utilisation de l'API](webapp/API/utilisation.md)
         * [Authentification sur l'API](webapp/API/authentification.md)
@@ -31,16 +27,11 @@
             - [Authentification](webapp/API/routes/authentification.md)
             - [Profile](webapp/API/routes/profile.md)
             - [Sports](webapp/API/routes/sporttype.md)
-
     * [Front-end](webapp/front/front.md)
-
         * [Gulp](webapp/front/gulp.md)
-
     * Back-end
-        * editor
-
+        * Éditeur
             * API
-
                 * [Parcours](webapp/back/editor/API/track.md)
                 * [Helpers](webapp/back/editor/API/helper.md)
                 * [Dernière édition](webapp/back/editor/API/lastEdition.md)
@@ -48,15 +39,12 @@
                 * [Types de POI](webapp/back/editor/API/poitype.md)
                 * [Sports](webapp/back/editor/API/sporttype.md)
             * [AJAX API](webapp/back/editor/AJAX-API.md)
-        * [Collaborator](webapp/back/collaborator.md)
+        * [Collaborateur](webapp/back/collaborator.md)
         * [Services métier](webapp/back/services.md)
-
     * Architecture
-        * [Bundles](webapp/architecture/bundles.md)
-        * [Controles d'accès](webapp/architecture/ControleAcces.md)
-        * [Architecture](webapp/architecture/bundles)
+        * [Architecture](webapp/architecture/bundles.md)
+        * [Contrôles d'accès](webapp/architecture/ControleAcces.md)
 * Applications mobiles
-
   * [Installation](phoneapp/installation.md)
   * [Configuration](phoneapp/configuration.md)
 * [Tests](tests-fonctionnels/tests.md)

@@ -13,6 +13,6 @@ Il a les mêmes droits qu'un organisateur à l'exception :
 
 ## Ajout d'un collaborateur
 
-Les collaborateurs sont des utilisateurs avec un role particulier : **ROLE_COLLABORATOR** 
+Les collaborateurs sont des utilisateurs avec un rôle particulier : **ROLE_COLLABORATOR** 
 
-Ces utilisateurs peuvent également être organisateurs de de leurs propres raids.
+Ces utilisateurs peuvent également être organisateurs de leurs propres raids.

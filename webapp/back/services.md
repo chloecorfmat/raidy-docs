@@ -1,8 +1,8 @@
 # Services métier
 
-L'application web repose sur une architcture en services. Ces services complètent le modéle MVC classique en sortant le code dit "métier" des controlleurs.
+L'application web repose sur une architecture en services. Ces services complètent le modèle MVC classique en sortant le code dit "métier" des contrôleurs.
 
-Cela permet nottament d'éviter la duplication de code et de permettre une maintenance simplifiée. Chaque service est contient diverses méthodes permettant d'effectuer des actions sur des Objets métier sans avoir de lien avec le reste de l'application.
+Cela permet notamment d'éviter la duplication de code et de permettre une maintenance simplifiée. Chaque service est contient diverses méthodes permettant d'effectuer des actions sur des Objets métier sans avoir de lien avec le reste de l'application.
 
 
 

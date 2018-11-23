@@ -1,6 +1,6 @@
 # API AJAX
 
-L'editeur de cartes a besoin de communiquer avec le serveur via des requêtes HTTP. Il n'a cependant pas besoin d'utiliser l'authentification de l'API car il utilise le session id de la page.
+L'éditeur de cartes a besoin de communiquer avec le serveur via des requêtes HTTP. Il n'a cependant pas besoin d'utiliser l'authentification de l'API car il utilise le session id de la page.
 
 
 
@@ -16,13 +16,13 @@ La déclaration de routes d'API AJAX se fait via les annontations **Routes** sta
 
 ## AjaxAPIController
 
-Pour simplifier le développement de routes un type de controleur spécifique a été mis en place : l'**AjaxAPIController**.
+Pour simplifier le développement de routes un type de contrôleur spécifique a été mis en place : l'**AjaxAPIController**.
 
-Pour créer un nouveau controleur d'API pour l'éditeur on peut le faire étendre **AjaxAPIController** .
+Pour créer un nouveau contrôleur d'API pour l'éditeur on peut le faire étendre **AjaxAPIController** .
 
 Cela permet d'utiliser les méthodes : 
 
-- **buildJSONStatus(code, message)** : retourne un objet **Response** avec un code HTTP particulier et contenant une chaine JSON de statut. Cette méthode prend en paramètres le **code** de statut HTTP et un **message** textuel. 
+- **buildJSONStatus(code, message)** : retourne un objet **Response** avec un code HTTP particulier et contenant une chaîne JSON de statut. Cette méthode prend en paramètres le **code** de statut HTTP et un **message** textuel. 
 
 ```json
 {"code":404, "message":"Not Found"}

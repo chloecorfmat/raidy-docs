@@ -15,23 +15,25 @@ Pour installer et faire fonctionner l'application il faut :
 
 ## Installation de symfony
 
-Cloner le projet git `git clone git@github.com:chloecorfmat/into-the-woods-webapp.git` 
+1. Cloner le projet git `git clone git@github.com:chloecorfmat/into-the-woods-webapp.git` 
 
-Créer une base de données et reporter les informations de connexion dans le fichier `app/config/parameters.yml`
+2. Créer une base de données et reporter les informations de connexion dans le fichier `app/config/parameters.yml`
 
-`composer install` pour télécharger les dépendances
+3. `composer install` pour télécharger les dépendances
 
-`php bin/console server:start` pour démarrer le serveur de développement.
+4. `php bin/console server:run` pour démarrer le serveur de développement.
 
-Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
+5. Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
 **Après chaque mise à jour du dépot git il faut relancer un  `composer install`pour installer les nouvelles dépendances** 
+
 
 ## Créer un compte Super Admin
 
 L'accès aux fonctionnalités d'administration est limité aux Super Administrateurs. Pour créer un compte Super Admin sans passer par un formulaire (nottament à l'installation de l'application) on utilise la commande `php bin/console superadmin:create`
 
 Cette commande va permettre de préciser les informations d'un compte et de la créer avec les droits adéquats.
+
 
 ## Configurer PHPStorm
 
