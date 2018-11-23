@@ -8,6 +8,8 @@
 	* [Parcours](tests-fonctionnels/webapp/Organizer/tracks.md)
 	* [Points d'intérêt](tests-fonctionnels/webapp/Organizer/pois.md)
 * [Helper](tests-fonctionnels/webapp/Helper/inscription.md)
+	* [Compte utilisateur](tests-fonctionnels/webapp/Helper/account.md)
+	* [Raids](tests-fonctionnels/webapp/Helper/raids.md)
 
 ## API
 * [Authentification](tests-fonctionnels/API/authentification.md)
