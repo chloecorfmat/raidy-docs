@@ -47,8 +47,9 @@
                 * [POI](webapp/back/editor/API/poi.md)
                 * [Types de POI](webapp/back/editor/API/poitype.md)
                 * [Sports](webapp/back/editor/API/sporttype.md)
-
             * [AJAX API](webapp/back/editor/AJAX-API.md)
+        * [Collaborator](webapp/back/collaborator.md)
+        * [Services métier](webapp/back/services.md)
 
     * Architecture
         * [Bundles](webapp/architecture/bundles.md)
