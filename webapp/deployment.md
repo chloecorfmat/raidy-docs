@@ -35,9 +35,18 @@ parameters:
     database_name: 'into-the-woods' #Nom de la base de données
     database_user: 'itw' #Utilisateur
     database_password: 'itw' #Mot de passe
+    mailer_transport: smtp
+    mailer_encryption: tls
+    mailer_port: 587
+    mailer_host: smtps.enssat.fr
+    mailer_user: ccorfmat@enssat.fr
+    mailer_password: tom_mdp
+    secret: ThisTokenIsNotSoSecretChangeIt
 ```
 
   * Exécuter la commande `composer install` pour télécharger les dépendances
+  
+  * Exécuter les migrations `php bin/console doctrine:migrations:migrate`
 
   * Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
@@ -78,12 +87,13 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 
 L'application utilise l'écosystème Node.js pour générer les feuilles de styles et les scripts nécessaires au bon fonctionnement du site.
 
-  * Se rendre dans le dossier `/web/assets`.
+  * Se rendre à la racine du projet
 
   * Installer les dépendances avec la commande `npm install`
+  
+  * Générer le code vuejs avec la commande `npm run dev`
 
   * Générer les feuilles de styles et les scripts avec la commande `gulp`
-
 
 
 

@@ -23,7 +23,9 @@ Pour installer et faire fonctionner l'application il faut :
 
 4. `php bin/console server:run` pour démarrer le serveur de développement.
 
-5. Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
+5. Exécuter les migrations `php bin/console doctrine:migrations:migrate`
+
+6. Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
 **Après chaque mise à jour du dépot git il faut relancer un  `composer install`pour installer les nouvelles dépendances** 
 
