@@ -20,11 +20,13 @@ Pour installer et faire fonctionner l'application, il faut :
 
 ## Installation
 
-### Installation de Symfony et de la base de données
+### Installation de Symfony, de la base de données et du serveur mail
 
   * Installer le code livré dans le répertoire de votre choix, généralement le dossier `/www/html` de votre serveur apache.
 
   * Dupliquer le fichier `app/config/parameters.yml.dist` et le nommer `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
+
+#### Base de données
 
   * Créer une base de données **MySQL** en utilisant l'encodage **utf8_general_ci**  et reporter les informations de connexion dans le fichier `app/config/parameters.yml`:
 
@@ -39,7 +41,34 @@ parameters:
 
   * Exécuter la commande `composer install` pour télécharger les dépendances
 
-  * Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
+  * Génerer la base de données avec `php bin/console doctrine:schema:update --force`
+
+#### Service mail 
+
+L'application permet d'envoyer des mails. Il est cependant nécessaire de configurer l'accès à un compte de messagerie au préalable. 
+  
+  * Ouvrir le fichier `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
+  * Reporter les informations de connexion dans le fichier, sous la partie liée au à la base de données :
+```yaml
+    mailer_transport: smtp #Transport pour l'envoi des mails
+    mailer_encryption: tls #Cryptage 
+    mailer_port: 587 #Port utilisé
+    mailer_host: smtps.enssat.fr #Hôte
+    mailer_user: raidy@enssat.fr #Adresse mail de l'émetteur
+    mailer_password: monmotdepasse #Mot de passe de l'émetteur
+```
+
+  * Les adresses d'envoi et de réception doivent également être configurées. Pour cela : 
+    * Ouvrir le fichier `app/config/config_prod.yml`
+    * Reporter les informations suivantes dans la section app :
+```yaml
+app:
+            mail:
+                from: "raidy@enssat.fr" #Adresse d'envoi de mail
+                reply_to: "raidy_reply_to@enssat.fr" #Adresse de réception de mail
+```
+
+  * Exécuter la commande `composer update` pour mettre à jour les dépendances
 
 ### Configuration d'Apache
 
@@ -83,10 +112,6 @@ L'application utilise l'écosystème Node.js pour générer les feuilles de styl
   * Installer les dépendances avec la commande `npm install`
 
   * Générer les feuilles de styles et les scripts avec la commande `gulp`
-
-
-
-
 
 
 
