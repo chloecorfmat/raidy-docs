@@ -41,7 +41,7 @@ Pour installer et faire fonctionner l'application il faut :
 ```
 
   * Les adresses d'envoi et de réception doivent également être configurées. Pour cela : 
-    * Ouvrir le fichier `app/config/config_dev.yml`
+    * Ouvrir le fichier `app/config/config_prod.yml`
     * Reporter les informations suivantes dans la section app :
 ```yaml
 app:
