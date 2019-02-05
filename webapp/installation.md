@@ -27,7 +27,32 @@ Pour installer et faire fonctionner l'application il faut :
 
 6.__ Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
-**Après chaque mise à jour du dépot git il faut relancer un  `composer install`pour installer les nouvelles dépendances** 
+6. L'application permet d'envoyer des mails. Il est cependant nécessaire de configurer l'accès à un compte de messagerie au préalable. 
+  
+  * Ouvrir le fichier `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
+  * Reporter les informations de connexion dans le fichier, sous la partie liée au à la base de données :
+```yaml
+    mailer_transport: smtp #Transport pour l'envoi des mails
+    mailer_encryption: tls #Cryptage 
+    mailer_port: 587 #Port utilisé
+    mailer_host: smtps.enssat.fr #Hôte
+    mailer_user: raidy@enssat.fr #Adresse mail de l'émetteur
+    mailer_password: monmotdepasse #Mot de passe de l'émetteur
+```
+
+  * Les adresses d'envoi et de réception doivent également être configurées. Pour cela : 
+    * Ouvrir le fichier `app/config/config_dev.yml`
+    * Reporter les informations suivantes dans la section app :
+```yaml
+app:
+            mail:
+                 from: "raidy@enssat.fr" #Adresse d'envoi de mail
+                 reply_to: "raidy_reply_to@enssat.fr" #Adresse de réception de mail
+```
+
+  * Exécuter la commande `composer update` pour mettre à jour les dépendances
+
+**Après chaque mise à jour du dépot git il faut relancer un  `composer install` pour installer les nouvelles dépendances** 
 
 
 ## Créer un compte Super Admin
