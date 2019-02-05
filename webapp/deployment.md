@@ -46,12 +46,12 @@ parameters:
 #### Service mail 
 
 L'application permet d'envoyer des mails. Il est cependant nécessaire de configurer l'accès à un compte de messagerie au préalable. 
-  
+
   * Ouvrir le fichier `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
   * Reporter les informations de connexion dans le fichier, sous la partie liée au à la base de données :
 ```yaml
     mailer_transport: smtp #Transport pour l'envoi des mails
-    mailer_encryption: tls #Cryptage 
+    mailer_encryption: tls #Chiffrage 
     mailer_port: 587 #Port utilisé
     mailer_host: smtps.enssat.fr #Hôte
     mailer_user: raidy@enssat.fr #Adresse mail de l'émetteur
@@ -63,9 +63,9 @@ L'application permet d'envoyer des mails. Il est cependant nécessaire de config
     * Reporter les informations suivantes dans la section app :
 ```yaml
 app:
-            mail:
-                from: "raidy@enssat.fr" #Adresse d'envoi de mail
-                reply_to: "raidy_reply_to@enssat.fr" #Adresse de réception de mail
+    mail:
+        from: "raidy@enssat.fr" #Adresse d'envoi de mail
+        reply_to: "raidy_reply_to@enssat.fr" #Adresse de réception de mail
 ```
 
   * Exécuter la commande `composer update` pour mettre à jour les dépendances
@@ -107,11 +107,14 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 
 L'application utilise l'écosystème Node.js pour générer les feuilles de styles et les scripts nécessaires au bon fonctionnement du site.
 
-  * Se rendre dans le dossier `/web/assets`.
+  * A la racine du projet
 
   * Installer les dépendances avec la commande `npm install`
 
   * Générer les feuilles de styles et les scripts avec la commande `gulp`
+
+  * Générer les composants Vue.js avec la commance `npm run dev`
+
 
 
 
