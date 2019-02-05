@@ -26,7 +26,7 @@ Pour installer et faire fonctionner l'application il faut :
 5. Génerer la base de données avec `php bin/console doctrine:schema:update --force` 
 
 6. L'application permet d'envoyer des mails. Il est cependant nécessaire de configurer l'accès à un compte de messagerie au préalable. 
-  
+
   * Ouvrir le fichier `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
   * Reporter les informations de connexion dans le fichier, sous la partie liée au à la base de données :
 ```yaml
