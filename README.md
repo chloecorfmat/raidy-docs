@@ -3,7 +3,7 @@
 Le projet Into The Woods a permis la création de l'application Raidy.
 
 Raidy permet d'organiser des raids grâce à : 
-  * une application web développée en Symfony
+  * une application web développée en Symfony et Vue.js
   * une application mobile à destination des organisateurs développée avec PhoneGap
   * une application mobile à destination des bénévoles développée également avec PhoneGap
 
