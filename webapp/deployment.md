@@ -10,7 +10,7 @@ Les serveurs de pré-production utilisaient une distribution Linux Ubuntu 18.04,
 
 Pour installer et faire fonctionner l'application, il faut :
 
-- **PHP 7.2**
+- **PHP 7.2** avec l'extension *cURL* activée
 - Un serveur de base de données **MySQL** 
 - **[Composer](https://getcomposer.org/)** 
 - **[Node.js et npm](https://nodejs.org)**
