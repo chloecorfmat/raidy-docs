@@ -11,6 +11,8 @@
     - *requiredHelpers* : nombre de bénévoles requis
     - *raid* : identifiant du raid correspondant à ce point d'intérêt
     - *poiType* : type de point d'intérêt
+    - *description* : description du point d'intérêt
+    - *image* : image du point d'intérêt
 - `GET /api/helper/raid/{raidId}/check-in` valide la bénévolat d'un helper
   - Paramètres :
     - *raidId* : Identifiant du raid
