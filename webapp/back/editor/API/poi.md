@@ -22,6 +22,10 @@
 
     - *poiType* : type de point d'intérêt
 
+    - *description* : description du point d'intérêt
+
+    - *image* : image du point d'intérêt
+
 - `PUT /editor/raid/{raidId}/poi` crée un nouveau point d'intérêt pour le raid *{raidId}*
 
   - Paramètres :
@@ -31,6 +35,8 @@
     - *latitude* : latitude du point d'intérêt
     - *requiredHelpers* : nombre de bénévoles requis
     - *poiType* : type de point d'intérêt
+    - *description* : description du point d'intérêt
+    - *image* : image du point d'intérêt
 
   - Retour : 
 
@@ -47,6 +53,10 @@
     - *raid* : identifiant du raid correspondant à ce point d'intérêt
 
     - *poiType* : type de point d'intérêt
+
+    - *description* : description du point d'intérêt
+
+    - *image* : image du point d'intérêt
 
 - `PATCH /editor/raid/{raidId}/poi/{poiId}` modifie le point d'intérêt *{poiId}* pour le raid *{raidId}*
 
@@ -56,6 +66,8 @@
     - *latitude* : latitude du point d'intérêt
     - *requiredHelpers* : nombre de bénévoles requis
     - *poiType* : type de point d'intérêt
+    - *description* : description du point d'intérêt
+    - *image* : image du point d'intérêt
   - Retour : 
     - *id* : identifiant du point d'intérêt
     - *name* : nom du point d'intérêt
@@ -64,6 +76,8 @@
     - *requiredHelpers* : nombre de bénévoles requis
     - *raid* : identifiant du raid correspondant à ce point d'intérêt
     - *poiType* : type de point d'intérêt
+    - *description* : description du point d'intérêt
+    - *image* : image du point d'intérêt
 
 
 

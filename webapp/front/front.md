@@ -2,6 +2,8 @@
  Pour gérer l'affichage de l'application web, nous utilisons plusieurs outils.
 
    * [gulp.js](./gulp.md) sur le projet
+   * Vue.js 
+   * Webpack
 
 
 

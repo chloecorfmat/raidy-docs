@@ -22,7 +22,9 @@ En tant qu'organisateur utilisateur de l'API, avec jeton d'authentification, je 
     "latitude": "1.256",
     "requiredHelpers": "2",
     "raid": 1,
-    "poiType": 5
+    "poiType": 5,
+    "description": "Tronc d'arbre",
+    "image":""
   },
   {
     "id": 2,
@@ -31,7 +33,9 @@ En tant qu'organisateur utilisateur de l'API, avec jeton d'authentification, je 
     "latitude": "1.666",
     "requiredHelpers": "2",
     "raid": 1,
-    "poiType": 5
+    "poiType": 5,
+    "description": "",
+    "image":"data:image/jpeg;base64,[...]"
   }]
    ```
 
@@ -55,7 +59,9 @@ En tant qu'organisateur utilisateur de l'API, avec jeton d'authentification, je 
     "latitude": "1.666",
     "requiredHelpers": "2",
     "raid": 1,
-    "poiType": 5
+    "poiType": 5,
+    "description": "",
+    "image":"data:image/jpeg;base64,[...]"
   }
    ```
 
@@ -77,7 +83,9 @@ En tant qu'organisateur utilisateur de l'API, avec jeton d'authentification, je 
     "latitude": "1.6548",
     "requiredHelpers": 3,
     "raid": 1,
-    "poiType": 4
+    "poiType": 4,
+    "description": "Angle mort sur le virage",
+    "image":"data:image/jpeg;base64,[...]"
   }
    ```
 
@@ -91,7 +99,9 @@ En tant qu'organisateur utilisateur de l'API, avec jeton d'authentification, je 
     "latitude": "1.6548",
     "requiredHelpers": "3",
     "raid": 1,
-    "poiType": 4
+    "poiType": 4,
+    "description": "Angle mort sur le virage",
+    "image":"data:image/jpeg;base64,[...]"
   }
    ```
 
@@ -112,7 +122,9 @@ En tant qu'organisateur utilisateur de l'API, avec jeton d'authentification, je 
     "latitude": "1.6548",
     "requiredHelpers": 3,
     "raid": 1,
-    "poiType": 4
+    "poiType": 4,
+    "description": "Angle mort sur le virage à gauche",
+    "image":"data:image/jpeg;base64,[...]"
   }
    ```
 
@@ -126,7 +138,9 @@ En tant qu'organisateur utilisateur de l'API, avec jeton d'authentification, je 
     "latitude": "1.6548",
     "requiredHelpers": "3",
     "raid": 1,
-    "poiType": 4
+    "poiType": 4,
+    "description": "Angle mort sur le virage à gauche",
+    "image":"data:image/jpeg;base64,[...]"
   }
    ```
 
