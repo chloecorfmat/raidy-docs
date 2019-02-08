@@ -65,6 +65,8 @@ En tant qu'organisateur de raids, je souhaite pouvoir éditer le tracé d'un par
    - Quand un tracé est déja terminé je peux le reprendre en cliquant sur un point à une des extrémités.
    - Quand un tracé n'est pas terminé je peux ajouter un point en cliquant sur la carte 
    - Je peux activé le mode de tracé automatique (c'est à dire il va le tracé va s'adapter aux routes et terrains) en cliquant sur l'icône en haut à gauche.
+   - Si je veux annuler mon action je peux faire CTRL-Z ou cliquer sur le bouton "annuler mon action" en haut à droite.
+   - Si je veux rétablir mon action annulé, je peux faire CTRL-Y ou CTRL-ALT-Z ou cliquer sur le bouton "rétablir mon action" en haut à droite.
 
 6. Je quitte le mode édition en cliquant sur le bouton rouge avec un marqueur blanc et un "X" en bas à droite de l'écran.
 
@@ -85,6 +87,7 @@ En tant qu'organisateur de raids, je souhaite pouvoir modifier les informations 
   	- Son nom
   	- Le sport concerné par le parcours
   	- Sa couleur
+
     2. Je confirme l'édition du parcours en cliquant sur **Mettre à jour**.
     3. J'annule mon action en cliquant sur **Annuler**.
 
