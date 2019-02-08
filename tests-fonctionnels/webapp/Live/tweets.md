@@ -6,7 +6,7 @@
 
 ###  Situation de départ
 
-En tant que bénévole pour un raid, je ne souhaite pas pouvoir afficher les tweets liés à des hashtags ou des noms d'utilisateur. 
+En tant qu'organisateur d'un raid, je ne souhaite pas pouvoir afficher les tweets liés à des hashtags ou des noms d'utilisateur. 
 
 ### Déroulement 
 
@@ -21,7 +21,7 @@ En tant que bénévole pour un raid, je ne souhaite pas pouvoir afficher les twe
 
 ###  Situation de départ
 
-En tant que bénévole pour un raid, je souhaite pouvoir afficher les tweets liés à des hashtags ou des noms d'utilisateur. 
+En tant qu'organisateur d'un raid, je souhaite pouvoir afficher les tweets liés à des hashtags ou des noms d'utilisateur. 
 
 ### Déroulement 
 
@@ -36,7 +36,7 @@ En tant que bénévole pour un raid, je souhaite pouvoir afficher les tweets li�
 
 ### Situation de départ
 
-Tous les éléments d'un tweet sont affichés.
+En tant que public, tous les éléments d'un tweet sont affichés.
 
 ### Déroulement
 
