@@ -60,11 +60,11 @@ En tant qu'organisateur de raids, je souhaite pouvoir éditer le tracé d'un par
 
    - Je peux les déplacer en les faisant glisser en maintenant le clique.
    - Je peux ajouter un point entre deux point en cliquant sur les marqueurs intermédiaire (transparents).
-
    - Je peux supprimer un point en double cliquant sur le marqueur.
    - Je peux terminer un tracé en cliquant sur le dernier point.
    - Quand un tracé est déja terminé je peux le reprendre en cliquant sur un point à une des extrémités.
    - Quand un tracé n'est pas terminé je peux ajouter un point en cliquant sur la carte 
+   - Je peux activé le mode de tracé automatique (c'est à dire il va le tracé va s'adapter aux routes et terrains) en cliquant sur l'icône en haut à gauche.
 
 6. Je quitte le mode édition en cliquant sur le bouton rouge avec un marqueur blanc et un "X" en bas à droite de l'écran.
 
@@ -88,6 +88,20 @@ En tant qu'organisateur de raids, je souhaite pouvoir modifier les informations 
     2. Je confirme l'édition du parcours en cliquant sur **Mettre à jour**.
     3. J'annule mon action en cliquant sur **Annuler**.
 
+## Afficher le graphe altimétrique 
+
+### Situation de départ
+
+En tant qu'organisateur de raids, je souhaite afficher le graph altimétrique d'un parcours.
+
+### Déroulement
+
+1. Je me rends sur la page [/organizer/raid/{id}](/organizer/raid/{id}).
+2. Dans l'onglet **Parcours**, j'identifie le parcours concerné.
+3. Je clique sur l'icône trois petits points du parcours concerné.
+4. Un menu contextuel s'ouvre, je clique sur **Voir l'altimétrie**.
+5. Une fenêtre s'ouvre en bas à gauche avec le **Graphe altimétrique** .
+6. Je peux le fermer en cliquant sur la croix en haut à droite de cette fenêtre.
 
 ## Supprimer un parcours	
 
