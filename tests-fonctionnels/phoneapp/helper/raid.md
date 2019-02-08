@@ -14,3 +14,4 @@ En tant que bénévole d'un raid, je veux consulter les informations d'un raid a
     1. Je peux cliquer sur l'onglet **Informations** pour afficher les informations du raid.
     2. Je peux cliquer sur l'onglet **Bénévolat** pour voir les parcours du raid sur une carte.
     3. Je peux cliquer sur l'onglet **Contacts** pour voir la liste des personnes que je peux contacter pendant le raid.
+	4. Je peux cliquer sur l'inglet **Participants** pour voir la liste des participants au raid.

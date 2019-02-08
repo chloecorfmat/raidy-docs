@@ -83,6 +83,8 @@
     * Helper
       * [Raid](tests-fonctionnels/phoneapp/helper/raid.md)
       * [Bénévolat](tests-fonctionnels/phoneapp/helper/checkin.md)
+      * [Participants](tests-fonctionnels/phoneapp/helper/competitor.md)
+      * [Badgeage](tests-fonctionnels/phoneapp/helper/tagging.md)
     * Organizer
       * [Calibrage](tests-fonctionnels/phoneapp/organizer/calibration.md)
 
