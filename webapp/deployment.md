@@ -15,6 +15,7 @@ Pour installer et faire fonctionner l'application, il faut :
 - **[Composer](https://getcomposer.org/)** 
 - **[Node.js et npm](https://nodejs.org)**
 - Un serveur web - apache de préférence
+- Les extensions curl et php_curl doivent être installée et activée.
 
 
 
@@ -106,6 +107,18 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 ### Génération des feuilles de styles et des scripts
 
 L'application utilise l'écosystème Node.js pour générer les feuilles de styles et les scripts nécessaires au bon fonctionnement du site.
+
+  * Si l'URL n'est pas racine, il faut modifier le fichier webpack.config.js pour l'adapter à l'url du projet : 
+  
+```javascript
+    .setOutputPath('web/build/')
+    // public path used by the web server to access the output path
+    .setPublicPath('/build')
+    // only needed for CDN's or sub-directory deploy
+    .setManifestKeyPrefix('build/')
+</VirtualHost>
+
+```
 
   * A la racine du projet
 
