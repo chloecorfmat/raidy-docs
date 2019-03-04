@@ -15,6 +15,7 @@ Pour installer et faire fonctionner l'application, il faut :
 - **[Composer](https://getcomposer.org/)** 
 - **[Node.js et npm](https://nodejs.org)**
 - Un serveur web - apache de préférence
+- Les extensions curl et php_curl doivent être installée et activée.
 
 
 
@@ -107,6 +108,18 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 
 L'application utilise l'écosystème Node.js pour générer les feuilles de styles et les scripts nécessaires au bon fonctionnement du site.
 
+  * Si l'URL n'est pas racine, il faut modifier le fichier webpack.config.js pour l'adapter à l'url du projet : 
+  
+```javascript
+    .setOutputPath('web/build/')
+    // public path used by the web server to access the output path
+    .setPublicPath('/build')
+    // only needed for CDN's or sub-directory deploy
+    .setManifestKeyPrefix('build/')
+</VirtualHost>
+
+```
+
   * A la racine du projet
 
   * Installer les dépendances avec la commande `npm install`
@@ -114,3 +127,26 @@ L'application utilise l'écosystème Node.js pour générer les feuilles de styl
   * Générer les feuilles de styles et les scripts avec la commande `gulp`
 
   * Générer les composants Vue.js avec la commance `npm run prod`
+  
+### Les fichiers uploadés
+
+Selon la configuration du serveur, il peut être nécessaire de créer les dossiers suivants. 
+
+* web/uploads/raids
+* web/uploads/sporttypes
+
+C'est dans ces dossiers que seront stockés les images et fichiers uploadés avec l'application Raidy.
+
+### La console Symfony
+
+La console Symfony peut être utilisée pour vider les caches, avoir des informations sur l'environnement... Par défaut, 
+elles agissent sur l'environnement de développement (dev). Pour agir sur l'environnement de production, il faut préciser
+l'option --env="prod" à la suite de la commande.
+
+__Par exemples :__
+  
+```bash
+    php bin/console about --env=prod
+    php bin/console cache:clear --env=prod
+```
+
