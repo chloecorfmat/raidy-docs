@@ -127,3 +127,26 @@ L'application utilise l'écosystème Node.js pour générer les feuilles de styl
   * Générer les feuilles de styles et les scripts avec la commande `gulp`
 
   * Générer les composants Vue.js avec la commance `npm run prod`
+  
+### Les fichiers uploadés
+
+Selon la configuration du serveur, il peut être nécessaire de créer les dossiers suivants. 
+
+* web/uploads/raids
+* web/uploads/sporttypes
+
+C'est dans ces dossiers que seront stockés les images et fichiers uploadés avec l'application Raidy.
+
+### La console Symfony
+
+La console Symfony peut être utilisée pour vider les caches, avoir des informations sur l'environnement... Par défaut, 
+elles agissent sur l'environnement de développement (dev). Pour agir sur l'environnement de production, il faut préciser
+l'option --env="prod" à la suite de la commande.
+
+__Par exemples :__
+  
+```bash
+    php bin/console about --env=prod
+    php bin/console cache:clear --env=prod
+```
+
