@@ -26,6 +26,10 @@ Pour installer et faire fonctionner l'application, il faut :
   * Installer le code livré dans le répertoire de votre choix, généralement le dossier `/www/html` de votre serveur apache.
 
   * Dupliquer le fichier `app/config/parameters.yml.dist` et le nommer `app/config/parameters.yml` : `cp app/config/parameters.yml.dist app/config/parameters.yml`
+  * Dupliquer le fichier `app/config/config.yml.dist` et le nommer `app/config/config.yml` : `cp app/config/config.yml.dist app/config/config.yml`
+  * Compléter la valeur du paramètre : fos_user.from_email.address
+  * Dupliquer le fichier `app/config/config_prod.yml.dist` et le nommer `app/config/config_prod.yml` : `cp app/config/config_prod.yml.dist app/config/config_prod.yml`
+  * Compléter et/ou modifier le fichier en fonction des besoins.
 
 #### Base de données
 
@@ -134,8 +138,12 @@ Selon la configuration du serveur, il peut être nécessaire de créer les dossi
 
 * web/uploads/raids
 * web/uploads/sporttypes
+* web/uploads/tracks/gpx
+* web/uploads/competitors
 
 C'est dans ces dossiers que seront stockés les images et fichiers uploadés avec l'application Raidy.
+
+Si les images ne sont pas stockées dans le dossier web, il est important de modifier les chemins dans le fichier `app/config/config_prod.yml.dist`
 
 ### La console Symfony
 
